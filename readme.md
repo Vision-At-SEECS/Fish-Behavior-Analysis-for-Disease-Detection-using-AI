@@ -227,9 +227,15 @@ https://github.com/computervisioneng/deep_sort
 </div>
 
 # Authors 
-Kanwal Aftab
-Linda Tschirren
-Boris Pasini 
-Peter Zeller
-Bostan Khan 
-Muhammad Moazam Fraz
+Kanwal Aftab - National University of Sciences and Technology (NUST)
+
+Linda Tschirren - Zurich University of Applied Sciences (ZHAW)
+
+Boris Pasini - Zurich University of Applied Sciences (ZHAW)
+
+Peter Zeller - UrbanBlue GmbH
+
+Bostan Khan - National University of Sciences and Technology (NUST)
+
+Muhammad Moazam Fraz - National University of Sciences and Technology (NUST)
+

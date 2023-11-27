@@ -4,7 +4,10 @@
 
 <div align="justify">
 We present a computer vision tracking-by-detection technique for monitoring fish behavior in aquaculture. The initial step involves generating a segmentation mask of the fish using Mask-RCNN in Detectron2. Subsequently, frames are associated for tracking using the state-of-the-art DeepSORT technique. The third step involves post-analysis, utilizing various image processing techniques to calculate parameters related to different behaviors, such as depth level, swimming speed, density, etc.
+
 </div> 
+
+![Alt ](/Speed_detection.avi)
 
 # Abstract
 <div align="justify">
@@ -22,10 +25,7 @@ Dataset used in this project can also be requested using same form.
 
 Dataset comprises of  various real-time video footages of rainbow trout available that can be utilized for training deep learning models for fish detection, tracking, or behavior analysis.
 
-The code required to train the models from scratch can be found in the supporting materials, specifically under the "colab training - file" folder. By using this code, you can obtain the weights and set up the models as per your needs.
-
-Alternatively, if you prefer to use pre-trained models, you can directly request them from the authors. Once obtained, simply place the trained models in the designated "trained_models" folder for seamless integration into your project.
-
+Alternatively, if you prefer to use pre-trained models, you can directly request them from the authors. 
 
 ## Step1: Fish segmentation using detectron2 
 
@@ -181,7 +181,7 @@ euclidean_distance = pairwise_distances(points, metric='euclidean')[0, 1]
 
 ![Alt ](/Fig/Density.png)
 
-For more information read this blog article: 
+For more information on Euclidean distance read this blog article: 
 https://towardsdatascience.com/euclidean-distance-numpy-1b2784e966fc
 
 ## 2. Speed
@@ -216,26 +216,18 @@ We leverage various matplotlib visualization techniques to gain insights into th
 For more information please refer to this blog:
 https://www.geeksforgeeks.org/data-visualization-with-python/
 
+## Embark on a Visual Journey: Discover the Project's Video Showcase via the YouTube Playlist - Click the Link Below:
+
+https://www.youtube.com/watch?v=DanRtj4SKdY&list=PLJ45nggqQyUu3V5Vxkd6oPNof3sxVWkEe
+
 ## Acknowlegdement 
 
 We would like to express our gratitude to the creators of the following projects and GitHub repositories. The materials used belong to the original authors, and we have adapted them for our specific case study on fish behavior in aquaculture.
 
 https://github.com/facebookresearch/detectron2
-
 https://github.com/computervisioneng/deep_sort
 
 </div>
 
 # Authors 
-Kanwal Aftab - National University of Sciences and Technology (NUST)
-
-Linda Tschirren - Zurich University of Applied Sciences (ZHAW)
-
-Boris Pasini - Zurich University of Applied Sciences (ZHAW)
-
-Peter Zeller - UrbanBlue GmbH
-
-Bostan Khan - National University of Sciences and Technology (NUST)
-
-Muhammad Moazam Fraz - National University of Sciences and Technology (NUST)
-
+Kanwal Aftab, Linda Tschirren, Boris Pasini, Peter Zeller, Bostan Khan and Muhammad Moazam Fraz
